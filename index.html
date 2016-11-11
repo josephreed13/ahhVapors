@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<title>AHH Vapors, LC</title>
+		<script src="/js/jquery-1.12.0.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="/styles/style.css">
+		<link rel="stylesheet" type="text/css" href="/styles/960_12_col_rtl.css">
+		<link rel="stylesheet" type="text/css" href="/styles/reset_rtl.css">
+
+		<script>
+		$(function() {
+			
+			 $('.fadein img:gt(0)').hide();
+				    setInterval(function(){
+				      $('.fadein :first-child').fadeOut()
+				         .next('img').fadeIn()
+				         .end().appendTo('.fadein');}, 
+				      3000);
+			$("#header").load("/includes/header.html");
+		});
+		</script>
+	</head>
+	<body class="content">
+		<div id="header"></div>
+		<div class="wrapper">
+		<br>
+		<br>
+		<br>
+		<div id="home_content" class="container_12">
+			<div id="home_description" class="grid_12">
+				<h1>Stop smoking, start vaping with AHH Vapors</h1><br><br>
+				<hr class="style2"><br>
+				<div class="grid_12">
+					<p>
+					<img id="nosmoking" src="/images/nosmoking.png" height="100" width="100" align="left" />
+
+					At AHH Vapors, we offer you the ALTERNATIVE <br>
+					to tobacco cigarettes by providing you with choices<br>
+					 in vapor products and e-juices. Quitting cigarettes <br>
+					 is a hard choice, if you want to stop we want to help. <br>
+					 Come in to see us today and check out our in-store flavor specials.
+					</p><br><br>
+				</div>
+			</div>
+			<div class="fadein">
+				<img src="/images/display_cases.jpg" height="500" width="960" alt="">
+				<img src="/images/bar.jpg" height="500" width="960" alt="">
+				<img src="/images/company_car.jpg" height="500" width="960" alt="">
+				<img src="/images/bottles.jpg" height="500" width="960" alt="">
+				<img src="/images/tanks.jpg" height="500" width="960" alt="">
+				<img src="/images/battery.jpg" height="500" width="960" alt="">
+				<img src="/images/mini.jpg" height="500" width="960" alt="">
+				<img src="/images/ray.jpg" height="500" width="960" alt="">
+			</div>			
+			<br>
+			<div id="home_location" class="grid_12">
+				<br><h1>Location & Hours</h1><br><br>
+				<hr class="style2"><br><br>
+				<div class="grid_6 alpha">
+					<h3>Street Address:</h3><br>
+					<div class="sites-embed-object-title" style="display:none;">210 W San Antonio St</div>
+					<div class="sites-embed-content sites-embed-type-map">
+						<iframe src="//maps.google.com/?ll=29.881975%2C-97.94293&amp;spn=0.013247%2C0.022273&amp;ie=UTF8&amp;z=15&amp;t=roadmap&amp;sll=29.881975%2C-97.94293&amp;sspn=0.013247%2C0.022273&amp;q=210%20W%20San%20Antonio%20St%20San%20Marcos%2C%20TX%2078666%20(210%20W%20San%20Antonio%20St)&amp;output=embed" title="210 W San Antonio St" width="100%" height="200" frameborder="0" class="map_embed" scrolling="no"></iframe>
+					</div>
+				</div>
+				<div class="grid_6 omega">
+					<h3>Hours:</h3><br>
+					<table class="hours">
+						<tr>
+							<td>Monday</td>
+							<td>10am to 7pm</td>
+						</tr>
+						<tr>
+							<td>Tuesday</td>
+							<td>9am to 6pm</td>
+						</tr>
+						<tr>
+							<td>Wednesday</td>
+							<td>10am to 7pm</td>
+						</tr>
+						<tr>
+							<td>Thurday</td>
+							<td>10am to 7pm</td>
+						</tr>
+						<tr>
+							<td>Friday</td>
+							<td>10am to 7pm</td>
+						</tr>
+						<tr>
+							<td>Saturday</td>
+							<td>10am to 7pm</td>
+						</tr>
+						<tr>
+							<td>Sunday</td>
+							<td>CLOSED</td>
+						</tr>
+					</table>
+					<br>
+					<br>
+					<p>Stop by and visit us!</p><br><br><br><br>
+				</div>
+			</div>
+			<div id="home_discounts" class="grid_12">
+				<h1>Yes, we offer discounts!</h1><br><br>
+				<hr class="style2"><br><br>
+				<p>We proudly offer a discount to military, state and local law enforcement officers, firefighters, and emergency responders. We thank you for the sacrifices you make. We also offer discounts to teachers, Texas State students and employees.</p><br>
+				<table class="discountImages">
+					<tr>
+						<td><img src="/images/military.jpg" width="100" height="100"></td>
+						<td><img src="/images/SMPolice.jpg" width="100" height="100"></td>
+						<td><img src="/images/SMFire.png" width="100" height="100"></td>
+						<td><img src="/images/txst.png" width="100" height="100"></td>
+						<td><img src="/images/SMEMS.jpg" width="100" height="100"></td>
+						<td><img src="/images/statetrooper.jpg" width="100" height="100"></td>
+					</tr>
+				</table>
+				<br><br>
+			</div>	
+			
+			<div id="footer" class="grid_12">
+				<hr>
+				<p>Copyright (c) AHH Vapors, LLC. 2016</p>
+			</div>
+		</div>
+	</body>
+</html>
